@@ -14,6 +14,16 @@ const routes = [
     path: '/lxwm',
     name: 'lxwm',
     component: () => import('../views/高祥/lxwm.vue')
+  },
+  {
+    path: '/culture',
+    name: 'Culture',
+    component: () => import('../views/李洪涛/Culture.vue')
+  },
+  {
+    path: '/designer',
+    name: 'Designer',
+    component: () => import('../views/李洪涛/designer.vue')
   }
 ]
 
