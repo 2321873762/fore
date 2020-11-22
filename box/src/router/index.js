@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import gywm from '../views/高祥/gywm.vue'
-
+import Stylist from "../views/董国强/stylist.vue"
 Vue.use(VueRouter)
 
 const routes = [
@@ -24,6 +24,14 @@ const routes = [
     path: '/designer',
     name: 'Designer',
     component: () => import('../views/李洪涛/designer.vue')
+  },{
+    path:"/budget",
+    name:"budget",
+    component:()=> import('../views/董国强/budget.vue')
+  },{
+    path:"/stylist",
+    name:"stylist",
+    component:Stylist
   }
 ]
 
