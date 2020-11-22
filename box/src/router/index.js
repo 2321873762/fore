@@ -32,6 +32,16 @@ const routes = [
     path:"/stylist",
     name:"stylist",
     component:Stylist
+  },
+  {
+    path:"/hfxindex",
+    name:"hfxindex",
+    component:()=> import('../views/hfx/index')
+  },
+  {
+    path:"/hfxlist",
+    name:"hfxlist",
+    component:()=> import('../views/hfx/list')
   }
 ]
 
