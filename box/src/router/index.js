@@ -42,6 +42,10 @@ const routes = [
     path:"/hfxlist",
     name:"hfxlist",
     component:()=> import('../views/hfx/list')
+  },{
+    path:'/three',
+    name:"three",
+    component:()=>import('../views/郑文甫/three')
   }
 ]
 
