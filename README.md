@@ -1,5 +1,6 @@
 # 四组必升
-#### 使用方法
+
+## 使用方法
 ```
 git clone https://github.com/2321873762/fore.git  //复制仓库
 cd fore //进入
