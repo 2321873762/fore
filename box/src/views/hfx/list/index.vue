@@ -52,7 +52,7 @@
         <div class="cont">
             <p>设计师：<span>吴飞柯</span>项目经理：<span>王永龙</span></p>
             <div style="margin-top:0.2rem;">
-                <img src="../../../../public/切图/01/00.png" alt="">
+                <img style="width:100%;height:100%;" src="../../../../public/切图/01/00.png" alt="">
             </div>
             <div class="text">
                 <p>
