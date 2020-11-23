@@ -103,7 +103,7 @@ $ee: #333;
 $ff: #eaeaea;
 .container {
   width: 7.5rem;
-  min-height: 10rem;
+  min-height: 20.5rem;
   display: flex;
   flex-direction: column;
   background: #f4f4f4;

@@ -37,7 +37,7 @@
     </nav>
     <div class="box">
       <div class="content">
-          <div class="cont" v-for="(item,index) in list" :key="index">
+          <div @click="$router.push('/hfxlist')" class="cont" v-for="(item,index) in list" :key="index">
               <img :src="require(`../../../../public/切图/01/${item.url}`)" alt="">
               
               <div class="text">
@@ -111,7 +111,7 @@ $ee: #333;
 $ff: #eaeaea;
 .container {
   width: 7.5rem;
-  min-height: 30rem;
+  min-height: 26.2rem;
   display: flex;
   flex-direction: column;
   background: #f4f4f4;
