@@ -3,7 +3,7 @@
       <nav>      
         <div class="nav-header">
             <div class="navleft">
-            <img src="../../public/icon/qie/logo.png" alt="" />
+            <img src="../../../public/icon/qie/logo.png" alt="" />
             </div>
             <div>装修预算</div>
             <div class="right">
@@ -15,7 +15,7 @@
         </div>
       </nav>
       <div class="content">
-          <div class="swiper"><img src="../../public/icon/qie/banner.jpg" alt=""></div>
+          <div class="swiper"><img src="../../../public/icon/qie/banner.jpg" alt=""></div>
           <p class="detail">房先森/装修攻略/装修预算/正文</p>
           <div class="zhu">
              <p>装修预算注意事项</p>
@@ -28,7 +28,7 @@
                 <li>客厅装修效果</li>
              </ul>
              <p>导语：在装修时如果没有提前做好装修预算，很容易造成最后开支太大，添置很多没必要的增项，那么在做预算的时候又有什么需要注意的地方呢</p>
-             <div class="img"><img src="../../public/icon/qie/case/case.jpg" alt=""></div>
+             <div class="img"><img src="../../../public/icon/qie/case/case.jpg" alt=""></div>
              <button>进入装修预算</button>
           </div>
       </div>

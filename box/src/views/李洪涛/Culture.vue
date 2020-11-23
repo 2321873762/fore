@@ -6,7 +6,7 @@
       <i class="iconfont icon-nav">导航</i>
     </div>
     <div class="img">
-      <img src="../../public/img/01.png" alt />
+      <img src="../../../public/img/01.png" alt />
     </div>
     <div class="size">
       <p>

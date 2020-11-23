@@ -2,17 +2,19 @@
    <div class="zhengti">
         <div class="head">
             <ul>
-                <li class="fang"><img src="../assets/logo.png" alt="" class="fang"></li>
+            
+                <li class="fang"><img src="@/assets/logo.png" alt="" class="fang"></li>
                 <li class="wenzi"><span >装修流程</span> <span class="wenzi2">我的</span> <span class="wenzi3">导航</span> </li>
                 
             </ul>
         </div>
         <div class="conent">
             <ul>
-                <li class="tu2"><img src="../../assets/切图/process/process1.jpg" alt="" class="tu"></li>
-                <li class="tu2"><img src="../../assets/切图/process/process2.jpg" alt="" class="tu"></li>
-                <li class="tu2"><img src="../../assets/切图/process/process3.png" alt="" class="tu"></li>
-                <li class="tu2"><img src="../../assets/切图/process/process4.jpg" alt="" class="tu"></li>
+            
+                <li class="tu2"><img src="@/assets/切图/process/process1.jpg" alt="" class="tu"></li>
+                <li class="tu2"><img src="@/assets/切图/process/process2.jpg" alt="" class="tu"></li>
+                <li class="tu2"><img src="@/assets/切图/process/process3.png" alt="" class="tu"></li>
+                <li class="tu2"><img src="@/assets/切图/process/process4.jpg" alt="" class="tu"></li>
             </ul>
         </div>
         <div class="footer">

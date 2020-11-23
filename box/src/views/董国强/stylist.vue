@@ -3,7 +3,7 @@
     <nav>
       <div class="nav-header">
         <div class="navleft">
-          <img src="../../public/icon/qie/logo.png" alt="" />
+          <img src="../../../public/icon/qie/logo.png" alt="" />
         </div>
         <div>设计师</div>
         <div class="right">

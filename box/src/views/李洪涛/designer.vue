@@ -1,7 +1,7 @@
 <template>
   <div class="box">
     <div class="header">
-      <img src="../../public/img/logo.png" alt />
+      <img src="../../../public/img/logo.png" alt />
       <p>设计师</p>
       <div class="right">
         <i class="iconfont icon-user">&nbsp;我的</i>

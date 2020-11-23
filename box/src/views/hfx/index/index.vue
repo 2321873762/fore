@@ -2,7 +2,7 @@
   <div class="container">
     <header>
       <div class="log">
-        <img src="../../../public/切图/logo.png" alt />
+        <img src="../../../../public/切图/logo.png" alt />
       </div>
       <div class="tit">
         <p>工地直播</p>
@@ -38,7 +38,7 @@
     <div class="box">
       <div class="content">
           <div class="cont" v-for="(item,index) in list" :key="index">
-              <img :src="require(`../../../public/切图/01/${item.url}`)" alt="">
+              <img :src="require(`../../../../public/切图/01/${item.url}`)" alt="">
               
               <div class="text">
                   <p class="p1">
