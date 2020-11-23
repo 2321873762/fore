@@ -19,25 +19,25 @@
       <!--  -->
      
         <div class="flex tab-item on">
-          <a href="/shoufang/" title="收房验房">
+          <a  @click="$router.push('/budget')" title="收房验房">
             <span class="bg-cercle">
               <i class="iconfont icon-house"></i>
             </span>
             <span class="font-large tag">收房验房</span>
           </a>
-          <a href="/yusuan/" title="装修预算">
+          <a  @click="$router.push('/stylist')" title="装修预算">
             <span class="bg-cercle">
               <i class="iconfont icon-budget"></i>
             </span>
             <span class="font-large tag">装修预算</span>
           </a>
-          <a href="/fengshui/" title="装修风水">
+          <a   @click="$router.push('/list')" title="装修风水">
             <span class="bg-cercle">
               <i class="iconfont icon-taiji"></i>
             </span>
             <span class="font-large tag">装修风水</span>
           </a>
-          <a href="/sheji/" title="装修设计">
+          <a   @click="$router.push('/hfxindex')" title="装修设计">
             <span class="bg-cercle">
               <i class="iconfont icon-pencle"></i>
             </span>
@@ -45,7 +45,7 @@
           </a>
         </div>
       
-      <a href="/zixun/" class="zq-btn">了解装修流程</a>
+      <a   @click="$router.push('/hfxlist')" class="zq-btn">了解装修流程</a>
     </div>
 
     <!-- 为你推荐 -->
@@ -54,7 +54,7 @@
         <article class="decoration-list">
           <dl class="decoration-item">
             <a
-              href="/cailiao-73139/"
+               @click="$router.push('/culture')"
               title="【房先森装修学院】家装如何鉴别瓷砖的好坏 房先森教你鉴别方法"
             >
               <dt>
@@ -82,7 +82,7 @@
           </dl>
           <dl class="decoration-item">
             <a
-              href="/shoufang-73661/"
+               @click="$router.push('/designer')"
               title="【房先森装修学院】毛坯房如何不装修也漂亮？毛坯房装修如何验收？"
             >
               <dt>
@@ -110,7 +110,7 @@
           </dl>
           <dl class="decoration-item">
             <a
-              href="/nimu-73660/"
+              @click="$router.push('/sg')"
               title="【房先森装修学院】地砖已铺好但没留缝如何补救 地砖铺贴技巧有哪些"
             >
               <dt>
@@ -138,7 +138,7 @@
           </dl>
           <dl class="decoration-item">
             <a
-              href="/jiaju-73659/"
+              @click="$router.push('/three')"
               title="【房先森装修学院】室内用人造大理石有辐射吗？有哪些危害？具体分析介绍"
             >
               <dt>
@@ -166,7 +166,7 @@
           </dl>
           <dl class="decoration-item">
             <a
-              href="/cailiao-73658/"
+              href="#"
               title="【房先森装修学院】家装用冠珠瓷砖怎么样 看完这篇就知道适不适合了"
             >
               <dt>
@@ -194,7 +194,7 @@
           </dl>
           <dl class="decoration-item">
             <a
-              href="/sheji-73657/"
+              href="#"
               title="【房先森装修学院】书房如何装修更实用 房先森师傅分享书房装修设计技巧"
             >
               <dt>
@@ -223,7 +223,7 @@
           </dl>
           <dl class="decoration-item">
             <a
-              href="/shuidian-73656/"
+              href="#"
               title="【房先森装修学院】卫浴施工细节莫忽视 超详细卫生间水管安装攻略入住无忧"
             >
               <dt>
@@ -252,7 +252,7 @@
           </dl>
           <dl class="decoration-item">
             <a
-              href="/baojie-73655/"
+              href="#"
               title="【房先森装修学院】亚麻窗帘怎么清洗?如何保养?房先森技巧篇分享"
             >
               <dt>
@@ -280,7 +280,7 @@
           </dl>
           <dl class="decoration-item">
             <a
-              href="/ruanzhuang-73654/"
+              href="#"
               title="【房先森装修学院】家居窗帘攻略：颜色怎么搭?轨道选哪种?注意细节颜值更高"
             >
               <dt>
@@ -308,7 +308,7 @@
           </dl>
           <dl class="decoration-item">
             <a
-              href="/youqi-73653/"
+              href="#"
               title="【房先森装修学院】uv漆与PU漆哪个好？uv漆橱柜门板好用吗？施工方式解析"
             >
               <dt>
@@ -355,18 +355,18 @@
 		<a href="tel:4009977658">服务热线:17757169861</a>
 	</p>
 	<p class="flex">
-		<a href="/" class="green">触屏版</a>
-		<a href="http://www.sirfang.com/">电脑版</a>
-		<a href="/aboutus/">关于我们</a>
-		<a href="/contact/">联系我们</a>
+		<a href="#" class="green">触屏版</a>
+		<a href="#">电脑版</a>
+		<a href="/gywm">关于我们</a>
+		<a href="/lxwm">联系我们</a>
 	</p>
 	<p class="copyright">© 2016 浙ICP备15033817号</p>
 </footer>
 <!--图片  -->
 <footer class="footer">
     <i class="close"></i>
-    <img src="/assets/quoten_bottom">
-    <a href="/baojia/" class="btn-quoted bg-dark-yellow">免费获取报价</a>
+    <img src="http://m.sirfang.com/assets/image/common/quoten_bottom.png" class="zq-imgg">
+    <a href="#" class="btn-quoted bg-dark-yellow">免费获取报价</a>
 </footer>
 
   </div>
@@ -384,6 +384,10 @@ export default {
 </script>
 
 <style scoped>
+.zq-imgg{
+  width: 70%;
+  height: 100%;
+}
 html,body,div,p,img,table,tr,th,td,footer,header {
     margin: 0;
     padding: 0;
@@ -405,6 +409,9 @@ html,body,div,p,img,table,tr,th,td,footer,header {
   height: 100px;
   background: #ffffff;
   border: 8px solid #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 input {
@@ -416,21 +423,17 @@ input {
   text-indent: 0.1rem;
   vertical-align: text-bottom;
   border: 2px solid #39c894;
-  margin-top: 20px;
-  margin-left: 0.7rem;
 }
 .btn {
   width: 15%;
   height: 44px;
   display: inline-block;
-  position: absolute;
   padding: 0;
   background: #2bb281;
   color: #fff;
   border: 0;
   font-size: 14px;
   border-radius: 0;
-  margin-top:25px;
 }
 /*  */
 .tr {
@@ -464,7 +467,6 @@ ol,ul {
 }
 
 .zq-btn {
-  width: 420px;
   height: 30px;
   line-height: 30px;
   display: inline-block;
@@ -475,6 +477,9 @@ ol,ul {
   text-align: center;
   font-size: 14px;
   margin-left:15px;
+  width: 80%;
+  margin-right: 10%;
+  margin-top: 32px;
 }
 .tabCons {
   margin-bottom: 1rem;
