@@ -1,7 +1,7 @@
 export default[
     {
-        path:'/b',
-        name: 'aaa',
-        // component: () => import('../views/About.vue')
+        path:'/list',
+        name: 'list',
+        component: () => import('../../views/郭彦/list.vue')
     }
 ]
