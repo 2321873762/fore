@@ -13,7 +13,7 @@ git checkout main //回到主分支
 git merge //合并分支
 git add .
 git commit -m 制作人 //描述
-git push https://github.com/2321873762/fore.git
+git push https://github.com/2321873762/fore.git main
 
 ## Project setup
 ```
